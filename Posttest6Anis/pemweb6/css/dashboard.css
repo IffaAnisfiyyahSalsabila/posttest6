@@ -1,0 +1,144 @@
+/* Dashboard Container */
+.dashboard {
+    display: flex;
+}
+
+/* Sidebar */
+.dash-side-bar {
+    background-color: #007BFF; /* Warna latar belakang sidebar */
+    color: #0e0303; /* Warna teks pada sidebar */
+    padding: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dash-side-bar img {
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 10px 0;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+li:hover {
+    color: #f3ca20; /* Warna teks saat dihover */
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.settings p {
+    margin-left: 10px;
+}
+
+/* Main Container */
+.dash-container {
+    flex: 1;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+.dash-nav-bar {
+    background-color: #007BFF;
+    padding: 10px;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 5px;
+}
+
+.dash-nav-icon {
+    display: flex;
+    gap: 10px;
+}
+
+.dash-nav-icon svg {
+    fill: #fff;
+}
+
+/* Add and History Buttons */
+.leading-btn {
+    display: flex;
+    align-items: center;
+}
+
+.add-btn {
+    background-color: #f3ca20; /* Warna tombol Tambah */
+    color: #333; /* Warna teks tombol Tambah */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 10px;
+}
+
+.add-btn:hover {
+    background-color: #e0aa00; /* Warna tombol Tambah saat dihover */
+}
+
+.history-btn {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.history-btn:hover {
+    background-color: #555;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #f3ca20; /* Warna latar belakang header tabel */
+    color: #333; /* Warna teks header tabel */
+}
+
+/* Action Buttons */
+.edit-btn, .delete-btn {
+    background-color: #f3ca20; /* Warna tombol Edit dan Hapus */
+    color: #333; /* Warna teks tombol Edit dan Hapus */
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-right: 5px;
+}
+
+.edit-btn:hover, .delete-btn:hover {
+    background-color: #e0aa00; /* Warna tombol Edit dan Hapus saat dihover */
+}
+

@@ -1,0 +1,6 @@
+1. Pemanggilan ke database sudah bisa 
+STEP nya
+- Buat aja database dengan nama posttest -> import file yg namanya customer.sql (file ada didalam rar)
+2. Pemanggilan Koneksi udah bisa semua, tapi yg dashboard belum diselesaikan kodingannya, karna saya males
+3. kalo mau ubah database dari yg untuk komen, ubah untuk login dan regis biar mudah aja sih...
+4. style.css itu mungkin di hapus aja, tapi baca aja dulu siapa tau masih mau dipake!
